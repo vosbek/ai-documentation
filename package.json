@@ -1,0 +1,9 @@
+{
+  "name": "ai-tool-catalog",
+  "version": "1.0.0",
+  "description": "Static AI tool catalog for Nationwide",
+  "scripts": {
+    "test": "echo 'No tests specified'"
+  },
+  "type": "module"
+}
