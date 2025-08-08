@@ -1,0 +1,37 @@
+{
+  "id": "sample",
+  "name": "Sample Tool",
+  "url": "https://example.com",
+  "vendor": {
+    "company": "Example Co",
+    "type": "startup",
+    "strategic_position": "innovative"
+  },
+  "pricing": {
+    "model": "freemium",
+    "cost": "10 USD per user/month"
+  },
+  "sdlc_phases": ["planning", "development"],
+  "features": ["code generation", "chat"],
+  "comparable_tools": ["ToolA"],
+  "community_sentiment": "positive",
+  "maturity": "beta",
+  "changelog": [{ "date": "2024-07-01", "summary": "Initial release" }],
+  "strategic_relationships": ["Partner1"],
+  "adopters": ["CompanyA"],
+  "usage_state": "aware",
+  "analytics": {
+    "features_added_over_time": [],
+    "value_over_time": [],
+    "usage_over_time": [],
+    "sentiment_over_time": []
+  },
+  "media": {
+    "screenshots": [],
+    "videos": [],
+    "youtube_links": []
+  },
+  "last_updated": "2024-07-01",
+  "updated_by": "Admin",
+  "notes": "Sample tool entry"
+}
