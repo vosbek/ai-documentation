@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>AI Tool Catalog</title>
+  <title>Tech Radar</title>
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script type="module" src="js/radar.js" defer></script>
 </head>
 <body>
   <header>
@@ -16,8 +18,8 @@
     </nav>
   </header>
   <div class="container">
-    <h1>AI Tool Catalog</h1>
-    <p>Explore AI tools across the software development lifecycle.</p>
+    <h1>Tech Radar</h1>
+    <canvas id="radar" width="400" height="400"></canvas>
   </div>
 </body>
 </html>

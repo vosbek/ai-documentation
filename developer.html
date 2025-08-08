@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Developer Portal</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/developer.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="developer.html">Developer Portal</a>
+      <a href="csuite.html">C-Suite Portal</a>
+      <a href="radar.html">Tech Radar</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>Developer Portal</h1>
+    <input id="search" placeholder="Search tools">
+    <select id="phase">
+      <option value="">All Phases</option>
+      <option value="planning">Planning</option>
+      <option value="development">Development</option>
+      <option value="testing">Testing</option>
+      <option value="deployment">Deployment</option>
+      <option value="maintenance">Maintenance</option>
+    </select>
+    <input id="feature" placeholder="Feature">
+    <select id="vendor">
+      <option value="">All Vendors</option>
+      <option value="startup">Startup</option>
+      <option value="enterprise">Enterprise</option>
+      <option value="open-source">Open Source</option>
+    </select>
+    <select id="pricing">
+      <option value="">All Pricing</option>
+      <option value="free">Free</option>
+      <option value="freemium">Freemium</option>
+      <option value="paid">Paid</option>
+    </select>
+    <div id="tool-list"></div>
+  </div>
+</body>
+</html>
