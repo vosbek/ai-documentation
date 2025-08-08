@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/admin.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="developer.html">Developer Portal</a>
+        <a href="csuite.html">C-Suite Portal</a>
+        <a href="radar.html">Tech Radar</a>
+        <a href="admin.html">Admin</a>
+      </nav>
+    </header>
+    <main class="container">
+      <h1>Admin Portal</h1>
+      <p>Generate a new tool JSON file.</p>
+      <input id="id" placeholder="ID">
+      <input id="name" placeholder="Name">
+      <input id="url" placeholder="URL">
+      <input id="vendorCompany" placeholder="Vendor Company">
+      <input id="vendorType" placeholder="Vendor Type">
+      <input id="pricingModel" placeholder="Pricing Model">
+      <input id="pricingCost" placeholder="Pricing Cost">
+      <input id="phases" placeholder="SDLC Phases comma separated">
+      <input id="features" placeholder="Features comma separated">
+      <input id="usage" placeholder="Usage State">
+      <button id="generate">Download JSON</button>
+    </main>
+  </body>
+  </html>

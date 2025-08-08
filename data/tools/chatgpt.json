@@ -1,0 +1,37 @@
+{
+  "id": "chatgpt",
+  "name": "ChatGPT",
+  "url": "https://openai.com/chatgpt",
+  "vendor": {
+    "company": "OpenAI",
+    "type": "startup",
+    "strategic_position": "Foundation model provider"
+  },
+  "pricing": {
+    "model": "freemium",
+    "cost": "20 USD per user/month for Plus"
+  },
+  "sdlc_phases": ["planning", "development", "testing"],
+  "features": ["documentation", "code assistance", "chat"],
+  "comparable_tools": ["Claude", "Gemini"],
+  "community_sentiment": "positive",
+  "maturity": "GA",
+  "changelog": [{ "date": "2024-07-01", "summary": "Added GPT-4o" }],
+  "strategic_relationships": ["Microsoft"],
+  "adopters": ["Enterprises"],
+  "usage_state": "aware",
+  "analytics": {
+    "features_added_over_time": [],
+    "value_over_time": [],
+    "usage_over_time": [],
+    "sentiment_over_time": []
+  },
+  "media": {
+    "screenshots": [],
+    "videos": [],
+    "youtube_links": []
+  },
+  "last_updated": "2024-07-01",
+  "updated_by": "Admin",
+  "notes": "General-purpose conversational AI"
+}
