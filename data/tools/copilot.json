@@ -21,15 +21,28 @@
   "adopters": ["Open-source projects", "Enterprises"],
   "usage_state": "trialing",
   "analytics": {
-    "features_added_over_time": [],
-    "value_over_time": [],
-    "usage_over_time": [],
-    "sentiment_over_time": []
+    "features_added_over_time": [
+      { "date": "2023-12", "value": 4 },
+      { "date": "2024-03", "value": 7 },
+      { "date": "2024-06", "value": 11 }
+    ],
+    "value_over_time": [
+      { "date": "2024-01", "value": 15 },
+      { "date": "2024-06", "value": 35 }
+    ],
+    "usage_over_time": [
+      { "date": "2024-01", "value": 5 },
+      { "date": "2024-06", "value": 20 }
+    ],
+    "sentiment_over_time": [
+      { "date": "2024-01", "value": 0.7 },
+      { "date": "2024-06", "value": 0.8 }
+    ]
   },
   "media": {
     "screenshots": [],
     "videos": [],
-    "youtube_links": []
+    "youtube_links": ["https://www.youtube.com/embed/86ENwHGQK3E"]
   },
   "last_updated": "2024-07-01",
   "updated_by": "Admin",

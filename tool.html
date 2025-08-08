@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="title">Tool Detail</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
     <script type="module" src="js/tool.js" defer></script>
   </head>
   <body>
@@ -19,7 +20,22 @@
     </header>
     <main class="container">
       <h1 id="title">Tool Detail</h1>
-      <div id="details"></div>
+      <section id="details"></section>
+      <section id="changelog">
+        <h2>Changelog</h2>
+        <ul id="changelog-list"></ul>
+      </section>
+      <section id="analytics">
+        <h2>Analytics</h2>
+        <canvas id="featuresChart"></canvas>
+        <canvas id="valueChart"></canvas>
+        <canvas id="usageChart"></canvas>
+        <canvas id="sentimentChart"></canvas>
+      </section>
+      <section id="media">
+        <h2>Media</h2>
+        <div id="media-content"></div>
+      </section>
     </main>
   </body>
-  </html>
+</html>

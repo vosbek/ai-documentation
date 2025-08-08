@@ -21,15 +21,28 @@
   "adopters": ["Enterprises"],
   "usage_state": "aware",
   "analytics": {
-    "features_added_over_time": [],
-    "value_over_time": [],
-    "usage_over_time": [],
-    "sentiment_over_time": []
+    "features_added_over_time": [
+      { "date": "2023-12", "value": 5 },
+      { "date": "2024-03", "value": 8 },
+      { "date": "2024-06", "value": 12 }
+    ],
+    "value_over_time": [
+      { "date": "2024-01", "value": 20 },
+      { "date": "2024-06", "value": 40 }
+    ],
+    "usage_over_time": [
+      { "date": "2024-01", "value": 10 },
+      { "date": "2024-06", "value": 25 }
+    ],
+    "sentiment_over_time": [
+      { "date": "2024-01", "value": 0.6 },
+      { "date": "2024-06", "value": 0.75 }
+    ]
   },
   "media": {
     "screenshots": [],
     "videos": [],
-    "youtube_links": []
+    "youtube_links": ["https://www.youtube.com/embed/j5a0jTc9S10"]
   },
   "last_updated": "2024-07-01",
   "updated_by": "Admin",
